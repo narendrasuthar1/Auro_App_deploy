@@ -8,9 +8,9 @@
 	<session-factory>
 		<!-- Database connection settings -->
 		<property name="connection.driver_class">org.postgresql.Driver</property>
-		<property name="connection.url">jdbc:postgresql://ec2-54-247-125-38.eu-west-1.compute.amazonaws.com:5432/d8t2aefujo1fbl?sslmode=require</property>
-		<property name="connection.username">kzpddgbqoywatc</property>
-		<property name="connection.password">296eb390baf875b5c9b181b9cbf7be7009bc816c6857d91d246977033fc25ee3</property>
+		<property name="connection.url">jdbc:postgresql://ec2-18-203-62-227.eu-west-1.compute.amazonaws.com:5432/dd7nqdhka5nb8c?sslmode=require</property>
+		<property name="connection.username">mvnbmuhbzbloer</property>
+		<property name="connection.password">ac9e7629c5333a9dcfb4f1ea27d7b3346f0dd672b8e4add555361f91cf12a74f</property>
 
 		<!-- JDBC connection pool (use the built-in) -->
 		<property name="connection.pool_size">100</property>
