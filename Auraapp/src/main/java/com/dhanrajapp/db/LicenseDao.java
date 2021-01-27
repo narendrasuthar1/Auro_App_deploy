@@ -23,7 +23,7 @@ public class LicenseDao {
 	public String getLicenseDetails() {
 		try {
 			session = factory.openSession();
-			Query query = session.createSQLQuery("select licexpdt from license_table");
+			Query query = session.createSQLQuery("select licexpdt from license_table;");
 			List<Object> list = query.list();
 			if (!Utility.listIsNullOrEmpty(list)) {
 				return (String) list.get(0);

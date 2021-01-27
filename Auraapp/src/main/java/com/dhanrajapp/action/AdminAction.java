@@ -20,9 +20,9 @@ public class AdminAction extends Action {
 	public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		// TODO Auto-generated method stub
-		HttpSession httpSession=request.getSession();
-		LoginDao dao=new LoginDao();
-		List<LoginBean> beans=dao.getLogin();
+		HttpSession httpSession = request.getSession();
+		LoginDao dao = new LoginDao();
+		List<LoginBean> beans = dao.getLogin();
 		httpSession.setAttribute("userList", beans);
 		return mapping.findForward("listUsers");
 	}
