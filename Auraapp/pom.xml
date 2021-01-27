@@ -146,10 +146,10 @@
                         <configuration>
                         	<artifactItems>
                         		<artifactItem>
-									<groupId>com.github.Auroapp</groupId>
-									<artifactId>Auroapp-runner</artifactId>
-									<version>1.0</version>
-									<destFileName>Auroapp-runner.jar</destFileName>
+									<groupId>com.github.jsimone</groupId>
+									<artifactId>webapp-runner</artifactId>
+									<version>8.0.30.2</version>
+									<destFileName>webapp-runner.jar</destFileName>
 								</artifactItem>
                         	</artifactItems>
                         </configuration>
