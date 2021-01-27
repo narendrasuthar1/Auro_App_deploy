@@ -16,7 +16,7 @@ public class HibernateUtil {
 	private static Logger logger=Logger.getLogger(HibernateUtil.class);
 	
 	public static SessionFactory getSessionFactory() {
-		registry=new StandardServiceRegistryBuilder().configure("/src/main/java/hibernate.cfg.xml").build();
+		registry=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
 		metadataSources=new MetadataSources(registry);
 		metadata=metadataSources.getMetadataBuilder().build();
 		factory=metadata.getSessionFactoryBuilder().build();
